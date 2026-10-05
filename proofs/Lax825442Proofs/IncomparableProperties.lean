@@ -19,7 +19,7 @@ theorem incomparable_symmetric_irreflexive :
     exact ⟨h.2, h.1⟩
   · intro p h
     apply h.1
-    refine ⟨id, monotone_id, ?_⟩
+    refine ⟨id, Computable.id, monotone_id, ?_⟩
     intro V _ _ G
     exact le_refl (p G)
 

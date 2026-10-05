@@ -15,5 +15,25 @@ git = "https://github.com/lax-archive/lax-submissions"
 rev = "bf77d7f88c195af43710fa96210d0695408564de"
 subDir = "twin-width-mixed-minor-number-v4-33/concepts"
 
+
+[[require]]
+name = "Lax271696"
+git = "https://github.com/lax-archive/lax-submissions"
+rev = "0503df0eaf4e41104b9a3aa31e3e028b5adf7a0e"
+subDir = "ram-linear-time/concepts"
+
+[[require]]
+name = "Lax214022"
+git = "https://github.com/lax-archive/lax-submissions"
+rev = "62feca320cf05d8b5157e8da4cfb84a8ff9d5b40"
+subDir = "cograph-welzl-orders/concepts"
+
+[[require]]
+name = "Lax68"
+git = "https://github.com/lax-archive/lax-submissions"
+rev = "f179bc81671b353be657432784d7dee68486b0bd"
+subDir = "planar-graph-classes-v4-33/concepts"
+
 [[lean_lib]]
 name = "Lax825442"
+

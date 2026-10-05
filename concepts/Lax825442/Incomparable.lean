@@ -5,7 +5,8 @@ import Lax825442.DoesNotBound
 title: Incomparability of graph parameters
 type: definition
 ---
-Two graph parameters are incomparable when neither admits a functional bound
+Two graph parameters are incomparable when neither admits a computable,
+nondecreasing functional bound
 in terms of the other. Both directions must fail. Unbounded ratios alone do
 not establish incomparability.
 -/

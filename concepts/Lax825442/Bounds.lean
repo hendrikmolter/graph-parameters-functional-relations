@@ -1,5 +1,6 @@
 import Lax153141.GraphParameters
 import Mathlib.Order.Monotone.Basic
+import Mathlib.Computability.Partrec
 
 /-!
 ---
@@ -7,7 +8,7 @@ title: Functional bounds between graph parameters
 type: definition
 ---
 For natural-valued graph parameters $p$ and $q$, the arrow $p\to q$ means
-that there is a nondecreasing function $f:\mathbb{N}\to\mathbb{N}$ such that
+that there is a total computable, nondecreasing function $f:\mathbb{N}\to\mathbb{N}$ such that
 $q(G)\le f(p(G))$ for every finite simple graph $G$, including disconnected
 graphs. Thus a bound on $p$ gives a bound on $q$.
 
@@ -18,9 +19,9 @@ namespace Lax825442.Bounds
 
 open Lax153141.GraphParameters
 
-/-- A nondecreasing function of `p` bounds `q` on every finite simple graph. -/
+/-- A computable nondecreasing function of `p` bounds `q` on every finite simple graph. -/
 def Bounds (p q : GraphParam) : Prop :=
-  ∃ f : ℕ → ℕ, Monotone f ∧
+  ∃ f : ℕ → ℕ, Computable f ∧ Monotone f ∧
     (∀ {V : Type} [Fintype V] [DecidableEq V] (G : SimpleGraph V),
       q G ≤ f (p G))
 

@@ -6,15 +6,15 @@ open Lax153141.GraphParameters
 open Lax825442.Bounds Lax825442.Equivalent
 
 private theorem bounds_refl (p : GraphParam) : Bounds p p := by
-  refine ⟨id, monotone_id, ?_⟩
+  refine ⟨id, Computable.id, monotone_id, ?_⟩
   intro V _ _ G
   exact le_refl (p G)
 
 private theorem bounds_trans {p q r : GraphParam}
     (hpq : Bounds p q) (hqr : Bounds q r) : Bounds p r := by
-  obtain ⟨f, hf, hpq⟩ := hpq
-  obtain ⟨g, hg, hqr⟩ := hqr
-  refine ⟨g ∘ f, hg.comp hf, ?_⟩
+  obtain ⟨f, hfc, hf, hpq⟩ := hpq
+  obtain ⟨g, hgc, hg, hqr⟩ := hqr
+  refine ⟨g ∘ f, hgc.comp hfc, hg.comp hf, ?_⟩
   intro V _ _ G
   exact (hqr G).trans (hg (hpq G))
 

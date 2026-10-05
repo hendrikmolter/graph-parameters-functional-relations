@@ -1,4 +1,3 @@
-import Lax825442Proofs.FunctionalEquivalenceConnection
 import Lax825442Proofs.EquivalentEquivalence
 import Lax825442Proofs.RelationClassification
 import Lax825442Proofs.StrictlyBoundsOrder

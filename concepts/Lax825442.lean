@@ -1,10 +1,15 @@
 import Lax825442.Arboricity
 import Lax825442.Bounds
+import Lax825442.ChromaticNumber
+import Lax825442.CliqueWidth
 import Lax825442.Degeneracy
 import Lax825442.DoesNotBound
+import Lax825442.DistanceToCograph
+import Lax825442.DistanceToClique
+import Lax825442.DistanceToCluster
+import Lax825442.DistanceToPlanar
 import Lax825442.Equivalent
 import Lax825442.EquivalentEquivalence
-import Lax825442.FunctionalEquivalenceConnection
 import Lax825442.Incomparable
 import Lax825442.IncomparableProperties
 import Lax825442.MaximumMatching
@@ -13,3 +18,5 @@ import Lax825442.RelationClassification
 import Lax825442.StrictlyBounds
 import Lax825442.StrictlyBoundsOrder
 import Lax825442.TwinCover
+import Lax825442.VertexCliqueCover
+import Lax825442.VertexCover

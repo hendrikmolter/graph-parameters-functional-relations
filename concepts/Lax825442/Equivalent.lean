@@ -6,7 +6,7 @@ title: Functional equivalence of graph parameters
 type: definition
 ---
 Two graph parameters are functionally equivalent when each admits a
-functional bound in terms of the other. This does not require their numerical
+computable nondecreasing functional bound in terms of the other. This does not require their numerical
 values to be equal, or either bounding function to be linear.
 -/
 

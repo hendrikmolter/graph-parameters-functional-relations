@@ -7,9 +7,9 @@ open Lax825442.Bounds Lax825442.StrictlyBounds
 
 private theorem bounds_trans {p q r : GraphParam}
     (hpq : Bounds p q) (hqr : Bounds q r) : Bounds p r := by
-  obtain ⟨f, hf, hpq⟩ := hpq
-  obtain ⟨g, hg, hqr⟩ := hqr
-  refine ⟨g ∘ f, hg.comp hf, ?_⟩
+  obtain ⟨f, hfc, hf, hpq⟩ := hpq
+  obtain ⟨g, hgc, hg, hqr⟩ := hqr
+  refine ⟨g ∘ f, hgc.comp hfc, hg.comp hf, ?_⟩
   intro V _ _ G
   exact (hqr G).trans (hg (hpq G))
 
