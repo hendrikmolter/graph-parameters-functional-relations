@@ -29,5 +29,3 @@ noncomputable def treedepth {V : Type} [Fintype V] [DecidableEq V]
   sInf {k | HasTreedepthAtMost G k}
 
 end Lax183560.TreeDepth
-
-

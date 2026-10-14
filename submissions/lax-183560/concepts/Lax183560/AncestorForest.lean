@@ -23,4 +23,3 @@ structure AncestorForest (V : Type) where
 
 
 end Lax183560.AncestorForest
-

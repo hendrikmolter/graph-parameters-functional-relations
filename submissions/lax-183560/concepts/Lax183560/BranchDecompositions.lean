@@ -43,4 +43,3 @@ def BinaryTree.cutWidth {α : Type} [DecidableEq α]
         (max (left.cutWidth measure) (right.cutWidth measure))
 
 end Lax183560.BranchDecompositions
-

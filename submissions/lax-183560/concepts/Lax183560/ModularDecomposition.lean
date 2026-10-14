@@ -39,4 +39,3 @@ inductive ModularDecomposition :
 
 
 end Lax183560.ModularDecomposition
-

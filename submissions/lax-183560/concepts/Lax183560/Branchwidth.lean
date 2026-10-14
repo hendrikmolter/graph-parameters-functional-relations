@@ -36,4 +36,3 @@ noncomputable def branchwidth {V : Type} [Fintype V] [DecidableEq V]
   sInf {k | HasBranchwidthAtMost G k}
 
 end Lax183560.Branchwidth
-

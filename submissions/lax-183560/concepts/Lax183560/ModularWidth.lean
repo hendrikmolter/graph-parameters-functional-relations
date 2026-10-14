@@ -26,5 +26,3 @@ noncomputable def modularWidth {V : Type} [Fintype V] [DecidableEq V]
   sInf {k | HasModularWidthAtMost V G k}
 
 end Lax183560.ModularWidth
-
-

@@ -25,5 +25,3 @@ noncomputable def pathwidth {V : Type} [Fintype V] [DecidableEq V]
   sInf {k | HasPathwidthAtMost G k}
 
 end Lax183560.Pathwidth
-
-

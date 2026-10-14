@@ -24,4 +24,3 @@ noncomputable def cutRank {V : Type} [Fintype V] [DecidableEq V]
 
 
 end Lax183560.CutRank
-

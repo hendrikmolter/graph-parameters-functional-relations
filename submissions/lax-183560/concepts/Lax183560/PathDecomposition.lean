@@ -25,4 +25,3 @@ structure PathDecomposition {V : Type} (G : SimpleGraph V) where
 
 
 end Lax183560.PathDecomposition
-

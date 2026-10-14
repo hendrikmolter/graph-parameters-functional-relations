@@ -30,5 +30,3 @@ noncomputable def rankwidth {V : Type} [Fintype V] [DecidableEq V]
   sInf {k | HasRankwidthAtMost G k}
 
 end Lax183560.Rankwidth
-
-
