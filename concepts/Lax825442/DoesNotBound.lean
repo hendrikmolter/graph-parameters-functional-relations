@@ -5,14 +5,13 @@ import Lax825442.Bounds
 title: Absence of a functional bound
 type: definition
 ---
-The relation $p\not\to q$ says that there is no total computable,
-nondecreasing function bounding $q(G)$ in terms of $p(G)$ on all finite simple
-graphs. It is the negation of the computable boundedness relation.
+We write $p\not\to q$ if no total computable nondecreasing function bounds
+$q(G)$ in terms of $p(G)$ on every finite simple graph. This relation is the
+negation of functional boundedness.
 
-A graph family with uniformly bounded $p$ and unbounded $q$ witnesses this
-relation. Such a separating family is sufficient, but absence of a computable
-bound does not by itself assert absence of every noncomputable bound.
-An unknown catalogue entry does not assert this relation.
+A family of graphs on which $p$ is uniformly bounded and $q$ is unbounded
+establishes this relation. Such a family is sufficient, but the absence of a
+computable bound does not imply the absence of every noncomputable bound.
 -/
 
 namespace Lax825442.DoesNotBound

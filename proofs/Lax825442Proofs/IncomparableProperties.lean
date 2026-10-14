@@ -9,8 +9,9 @@ open Lax825442.Bounds Lax825442.Incomparable
 ---
 conclusion: Lax825442.IncomparableProperties.incomparable_symmetric_irreflexive
 ---
-Swap the two nonbounds for symmetry. For irreflexivity, contradict a self
-nonbound with the monotone identity bounding function.
+Exchanging the two assertions that no bound exists establishes symmetry.
+For irreflexivity, the identity function bounds every parameter by itself,
+contradicting the assumption of incomparability.
 -/
 theorem incomparable_symmetric_irreflexive :
     (Symmetric Incomparable) ∧ (Irreflexive Incomparable) := by

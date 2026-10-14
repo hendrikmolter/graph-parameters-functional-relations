@@ -7,9 +7,7 @@ title: Distance to complete graphs
 type: definition
 ---
 The distance to complete graphs is the minimum number of vertices whose
-deletion leaves a complete induced graph. Completeness uses mathlib's top
-graph, which has every edge between distinct vertices. The empty graph is
-complete under this convention, so deleting all vertices always suffices.
+deletion leaves a complete graph.
 -/
 
 namespace Lax825442.DistanceToClique

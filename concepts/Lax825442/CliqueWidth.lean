@@ -8,11 +8,10 @@ import Mathlib.Order.Lattice.Nat
 title: Clique-width
 type: definition
 ---
-Clique-width is the least number of labels in a valid expression that builds
-the graph from vertex creation, disjoint union, joining two label classes,
-and relabelling. The expression language is imported from the registered
-Lax concept `Lax271696.CliqueExpr`. A finite vertex type is transported to
-`Fin n` because that expression language uses canonically numbered vertices.
+The clique-width of a graph is the minimum number of labels needed to
+construct it using vertex creation, disjoint union, the addition of all edges
+between two distinct label classes, and relabeling.
+The empty graph has clique-width zero.
 -/
 
 namespace Lax825442.CliqueWidth

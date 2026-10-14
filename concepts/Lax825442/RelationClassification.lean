@@ -9,12 +9,7 @@ type: theorem
 ---
 For every pair of graph parameters, exactly one of four relations holds:
 the first strictly bounds the second, the second strictly bounds the first,
-they are functionally equivalent, or they are incomparable.
-
-The statement asserts that at least one case holds and explicitly excludes
-all six pairs of simultaneous cases. Its proof uses classical excluded
-middle for functional boundedness in each direction; it does not provide an
-algorithm for deciding which case holds.
+the parameters are functionally equivalent, or they are incomparable.
 -/
 
 namespace Lax825442.RelationClassification

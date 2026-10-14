@@ -17,8 +17,10 @@ private theorem bounds_trans {p q r : GraphParam}
 ---
 conclusion: Lax825442.StrictlyBoundsOrder.strictlyBounds_strictOrder
 ---
-A strict self-bound contradicts itself. For transitivity, compose the forward
-bounds; a reverse bound would contradict the first strict comparison.
+Irreflexivity follows because a strict bound would both assert and deny a
+functional bound from a parameter to itself. For transitivity, compose the
+forward bounding functions. A bound in the reverse direction would contradict
+the first strict comparison.
 -/
 theorem strictlyBounds_strictOrder : IsStrictOrder GraphParam StrictlyBounds := by
   refine { irrefl := ?_, trans := ?_ }

@@ -7,10 +7,8 @@ import Mathlib.Order.Lattice.Nat
 title: Distance to planar graphs
 type: definition
 ---
-The distance to planar graphs is the minimum number of vertices whose deletion
-leaves a planar induced graph. Planarity uses the registered `Lax68.Planar.IsPlanar`,
-which asserts the existence of a crossing-free straight-line drawing in the
-real plane. For finite simple graphs this agrees with standard planarity.
+The distance to planar graphs is the minimum number of vertices whose
+deletion leaves a planar graph.
 -/
 
 namespace Lax825442.DistanceToPlanar

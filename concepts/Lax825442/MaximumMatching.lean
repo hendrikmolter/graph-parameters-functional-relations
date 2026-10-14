@@ -7,10 +7,8 @@ import Mathlib.Data.Set.Card
 title: Maximum matching number
 type: definition
 ---
-A matching is a set of edges with no shared endpoints. The maximum matching
-number of a finite simple graph is the largest number of edges in a matching.
-The empty graph has value zero. The definition uses mathlib's subgraph
-matching predicate and counts edges, rather than matched vertices.
+The maximum matching number of a graph is the largest number of edges in a
+matching. The empty graph has maximum matching number zero.
 -/
 
 namespace Lax825442.MaximumMatching

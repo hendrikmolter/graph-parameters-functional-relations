@@ -7,12 +7,11 @@ import Mathlib.Computability.Partrec
 title: Functional bounds between graph parameters
 type: definition
 ---
-For natural-valued graph parameters $p$ and $q$, the arrow $p\to q$ means
-that there is a total computable, nondecreasing function $f:\mathbb{N}\to\mathbb{N}$ such that
-$q(G)\le f(p(G))$ for every finite simple graph $G$, including disconnected
-graphs. Thus a bound on $p$ gives a bound on $q$.
-
-The parameter signature is the existing `Lax153141.GraphParameters.GraphParam`.
+For graph parameters $p$ and $q$ with values in the natural numbers, we write
+$p\to q$ if there is a total computable nondecreasing function
+$f:\mathbb{N}\to\mathbb{N}$ such that $q(G)\le f(p(G))$ for every finite
+simple graph $G$. Thus, a bound on $p$ yields a bound on $q$. The definition
+includes disconnected graphs.
 -/
 
 namespace Lax825442.Bounds

@@ -7,8 +7,8 @@ import Mathlib.Order.Lattice.Nat
 title: Arboricity
 type: definition
 ---
-Arboricity is the minimum number of forests partitioning the edge set. An
-edgeless graph has value zero.
+The arboricity of a graph is the minimum number of forests whose edge sets
+partition its edge set. An edgeless graph has arboricity zero.
 -/
 
 namespace Lax825442.Arboricity

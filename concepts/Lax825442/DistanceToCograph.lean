@@ -8,10 +8,7 @@ title: Distance to cographs
 type: definition
 ---
 The distance to cographs is the minimum number of vertices whose deletion
-leaves a cograph. The remaining graph is induced on the vertices outside the
-deleted set. Cograph membership uses the registered `Lax214022.Cographs.IsCograph`,
-expressed through a twin-width-zero contraction sequence. This is the standard
-cograph class, equivalently the graphs with no induced four-vertex path.
+leaves a cograph.
 -/
 
 namespace Lax825442.DistanceToCograph

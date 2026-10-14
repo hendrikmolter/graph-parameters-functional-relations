@@ -6,11 +6,9 @@ import Mathlib.Order.Defs.Unbundled
 title: Strict functional boundedness is a strict partial order
 type: theorem
 ---
-Strict functional boundedness is irreflexive and transitive on graph
-parameters, and hence is a strict partial order. The statement uses mathlib's
-`IsStrictOrder`, which expresses these two properties. Asymmetry follows from
-them. Distinct graph parameters can be functionally equivalent, so this is
-not asserted to be a strict total order.
+Strict functional boundedness of graph parameters is irreflexive and
+transitive, and hence is a strict partial order. Asymmetry follows from these
+two properties.
 -/
 
 namespace Lax825442.StrictlyBoundsOrder

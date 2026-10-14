@@ -6,8 +6,7 @@ title: Functional equivalence is an equivalence relation
 type: theorem
 ---
 Functional equivalence of graph parameters is reflexive, symmetric, and
-transitive. Identity functions give reflexivity, symmetry exchanges the two
-bounds, and composition of nondecreasing bounding functions gives transitivity.
+transitive.
 -/
 
 namespace Lax825442.EquivalentEquivalence

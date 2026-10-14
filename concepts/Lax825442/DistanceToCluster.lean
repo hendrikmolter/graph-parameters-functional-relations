@@ -7,11 +7,8 @@ import Mathlib.Order.Lattice.Nat
 title: Distance to cluster graphs
 type: definition
 ---
-A cluster graph is a disjoint union of cliques, including isolated vertices
-and the empty graph. Equivalently, its complement is complete multipartite.
 The distance to cluster graphs is the minimum number of vertices whose
-deletion leaves a cluster induced graph. The target predicate reuses
-mathlib's `SimpleGraph.IsCompleteMultipartite` on the complement.
+deletion leaves a cluster graph.
 -/
 
 namespace Lax825442.DistanceToCluster

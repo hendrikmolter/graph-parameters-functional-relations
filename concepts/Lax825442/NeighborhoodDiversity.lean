@@ -7,9 +7,10 @@ import Mathlib.Order.Lattice.Nat
 title: Neighborhood diversity
 type: definition
 ---
-Neighborhood diversity is the minimum number of parts partitioning the
-vertices such that each part is a module and induces either a clique or an
-independent set. The empty graph has value zero.
+The neighborhood diversity of a graph is the minimum number of parts in a
+partition of its vertex set such that each part induces a clique or an
+independent set and is a module: its vertices have the same neighbors outside
+the part. The empty graph has neighborhood diversity zero.
 -/
 
 namespace Lax825442.NeighborhoodDiversity

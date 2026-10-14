@@ -5,9 +5,7 @@ import Lax825442.Incomparable
 title: Incomparability is symmetric and irreflexive
 type: theorem
 ---
-Incomparability of graph parameters is symmetric: exchanging the parameters
-exchanges its two nonbounds. It is also irreflexive, since every parameter
-bounds itself using the identity function.
+Incomparability of graph parameters is symmetric and irreflexive.
 -/
 
 namespace Lax825442.IncomparableProperties

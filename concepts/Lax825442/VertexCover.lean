@@ -5,11 +5,8 @@ import Mathlib.Combinatorics.SimpleGraph.VertexCover
 title: Vertex-cover number
 type: definition
 ---
-The vertex-cover number is the minimum size of a set meeting every edge. This
-natural-valued interface refers to mathlib’s vertex-cover number; it is finite
-on finite graphs.
-Mathlib's `SimpleGraph.vertexCoverNum_ne_top_of_finite` ensures that conversion
-to a natural number loses no information in this domain.
+A vertex cover is a set of vertices that meets every edge. The vertex-cover
+number is the minimum size of a vertex cover.
 -/
 
 namespace Lax825442.VertexCover

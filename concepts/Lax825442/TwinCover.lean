@@ -7,9 +7,10 @@ import Mathlib.Order.Lattice.Nat
 title: Twin-cover number
 type: definition
 ---
-A twin-cover meets every edge whose endpoints are not true twins in the
-original graph. The twin-cover number is the minimum cardinality of such a
-set.
+Two adjacent vertices are true twins if they have the same neighbors outside
+the pair. A twin-cover is a set of vertices that meets every edge whose
+endpoints are not true twins in the original graph. The twin-cover number is
+the minimum size of a twin-cover.
 -/
 
 namespace Lax825442.TwinCover

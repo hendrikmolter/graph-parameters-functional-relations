@@ -5,11 +5,10 @@ import Mathlib.Combinatorics.SimpleGraph.Coloring.Vertex
 title: Vertex clique cover number
 type: definition
 ---
-The vertex clique cover number is the minimum number of cliques partitioning
-the vertices, equivalently the chromatic number of the complement.
-Each color class of the complement is a clique of the original graph.
-The complement is finite, so converting its chromatic number to a natural
-number loses no information. The empty graph has value zero.
+The vertex clique cover number of a graph is the minimum number of cliques
+whose vertex sets partition its vertex set. Equivalently, it is the chromatic
+number of the complement: each color class of the complement is a clique in
+the original graph. The empty graph has vertex clique cover number zero.
 -/
 
 namespace Lax825442.VertexCliqueCover

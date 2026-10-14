@@ -5,9 +5,9 @@ import Lax825442.Bounds
 title: Functional equivalence of graph parameters
 type: definition
 ---
-Two graph parameters are functionally equivalent when each admits a
-computable nondecreasing functional bound in terms of the other. This does not require their numerical
-values to be equal, or either bounding function to be linear.
+Two graph parameters are functionally equivalent if each is bounded by a
+total computable nondecreasing function of the other on every finite simple
+graph.
 -/
 
 namespace Lax825442.Equivalent

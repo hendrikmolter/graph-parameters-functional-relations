@@ -22,8 +22,9 @@ private theorem bounds_trans {p q r : GraphParam}
 ---
 conclusion: Lax825442.EquivalentEquivalence.equivalent_equivalence
 ---
-Identity bounds establish reflexivity, swapping bounds establishes symmetry,
-and composing bounds in both directions establishes transitivity.
+The identity function establishes reflexivity. Exchanging the two bounds
+establishes symmetry, and composing the bounding functions in both directions
+establishes transitivity.
 -/
 theorem equivalent_equivalence : Equivalence Equivalent := by
   refine ⟨?_, ?_, ?_⟩

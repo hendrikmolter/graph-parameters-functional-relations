@@ -7,8 +7,9 @@ import Mathlib.Order.Lattice.Nat
 title: Degeneracy
 type: definition
 ---
-Degeneracy is the least k such that every nonempty induced subgraph has a
-vertex of degree at most k.
+The degeneracy of a graph is the least natural number $k$ such that every
+nonempty induced subgraph has a vertex of degree at most $k$. The degree is
+measured within that induced subgraph.
 -/
 
 namespace Lax825442.Degeneracy

@@ -1,34 +1,36 @@
-This submission defines thirteen parameters of finite simple undirected graphs:
-maximum matching number, twin-cover number, neighborhood diversity, degeneracy, and
-arboricity, chromatic number, vertex-cover number, vertex clique-cover number,
-clique-width, distance to cographs, distance to planar graphs, distance to
-complete graphs, and distance to cluster graphs.
-Disconnected graphs are included, and all thirteen
-parameters assign value zero to the empty graph.
+The goal of this draft is to initiate an overview and hierarchy of graph
+parameters. As a first step, we introduce the basic relations for comparing
+parameters and define a first batch of thirteen graph parameters.
+Throughout, graphs are finite, simple, and undirected.
 
-The parameters are defined through matchings, twin-covers, neighborhood
-partitions, degree conditions on induced subgraphs, and partitions of the
-edge set into forests, respectively. Each parameter has its own definition
-concept. Chromatic number and vertex-cover number reuse mathlib's definitions
-through conversion to natural numbers on finite graphs. Vertex clique-cover
-number is the chromatic number of the complement.
-Clique-width minimizes the labels of a valid expression from Lax's existing
-expression language. The four vertex-deletion distances reuse registered
-cograph and planarity predicates and mathlib's complete-graph and
-complete-multipartite predicates.
-
-Five further definitions express computable functional boundedness, functional
-equivalence, absence of a functional bound, strict functional boundedness,
-and incomparability on all finite
-simple graphs. Bounding functions are required to be total computable and
-nondecreasing; equivalence requires such bounds in both directions.
-No comparisons between the thirteen concrete parameters are asserted.
-
-A theorem establishes that exactly one of four relations holds for every
-parameter pair: strict functional boundedness in either direction, functional
-equivalence, or incomparability.
-
-Further theorems prove that functional equivalence is an equivalence relation,
+The comparisons are based on functional boundedness: one parameter bounds
+another if the latter is bounded by a total computable nondecreasing function
+of the former on every finite simple graph. From this relation, we define
+functional equivalence, absence of a functional bound, strict functional
+boundedness, and incomparability. We prove that every pair of parameters is
+either functionally equivalent, strictly bounded in one of the two
+directions, or incomparable, with exactly one of these four cases holding.
+We also prove that functional equivalence is an equivalence relation,
 strict functional boundedness is a strict partial order, and incomparability
 is symmetric and irreflexive.
 
+The first batch consists of the following parameters:
+
+- Arboricity
+- Chromatic number
+- Clique-width
+- Degeneracy
+- Distance to cluster graphs
+- Distance to cographs
+- Distance to complete graphs
+- Distance to planar graphs
+- Maximum matching number
+- Neighborhood diversity
+- Twin-cover number
+- Vertex clique cover number
+- Vertex-cover number
+
+All definitions include disconnected graphs and assign value zero to the
+empty graph. This draft provides the definitions and general properties of
+the comparison relations; comparisons between the concrete parameters remain
+to be added to the hierarchy.

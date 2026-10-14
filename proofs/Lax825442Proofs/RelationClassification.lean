@@ -9,8 +9,8 @@ open Lax825442.StrictlyBounds Lax825442.Equivalent Lax825442.Incomparable
 ---
 conclusion: Lax825442.RelationClassification.relationClassification
 ---
-Classical propositional logic gives exhaustiveness and excludes every pair
-of simultaneous cases after unfolding the four relations.
+After unfolding the definitions, classical propositional logic shows that
+at least one of the four cases holds and that no two hold simultaneously.
 -/
 theorem relationClassification (p q : GraphParam) :
   (StrictlyBounds p q ∨ StrictlyBounds q p ∨ Equivalent p q ∨ Incomparable p q) ∧
